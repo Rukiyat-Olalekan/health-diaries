@@ -1,0 +1,48 @@
+.trending {
+  margin: 2rem 6rem;
+}
+.trending h1 {
+    text-align: center;
+    margin: 0.5rem 0.5rem
+}
+.trending p {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.flex {
+  display: flex;
+}
+.flex p {
+    margin-bottom: 0.5rem;
+}
+.flex h3 {
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+.image {
+    margin: 2rem;
+}
+.width {
+    width: 95%;
+    margin: auto;
+    padding: 0.5rem;
+}
+@media (max-width: 420px) {
+    .trending {
+        width: 90%;
+        margin: 2rem auto;
+      }
+    .trending h1 {
+        text-align: center;
+    }
+    .trending p {
+        text-align: left;
+    }
+    .flex {
+        display: block;
+    }
+    .img {
+        width: 100%;
+        height: auto;
+    }
+    }

@@ -1,0 +1,78 @@
+.testimonial {
+  border: 1px solid #dddddd;
+  margin-bottom: 1rem;
+}
+.image-transition {
+  transition: opacity 0.5s ease-in;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.overlay {
+  display: flex;
+  gap: 19rem;
+  z-index: 2;
+  position: absolute;
+}
+.twenty-five {
+  background-color: purple;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  font-weight: bold;
+}
+.november {
+  background-color: #464646;
+  color: white;
+  padding: 0.5rem 0;
+  text-align: center;
+}
+.icons {
+  background-color: purple;
+  padding: 0 0.85rem;
+  height: fit-content;
+}
+.width {
+  padding: 1rem;
+}
+.width p {
+  margin-top: 0.5rem;
+}
+.admin {
+  display: flex;
+  margin: 0.5rem 0.5rem 0.5rem 0;
+  gap: 1rem;
+}
+.border-top {
+  margin: 1rem 0 0.5rem 0;
+  border-top: 1px solid #7e7e7e;
+}
+
+.button {
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  padding: 0.5rem 1rem;
+  margin: 1rem 1rem 1rem 0;
+  border: 2px solid purple;
+  background-color: white;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  background-color: purple;
+  color: white;
+  border-color: purple;
+}
+
+@media (max-width: 420px) {
+  .testimonial {
+    width: 100%;
+    margin: 1rem auto;
+  }
+  .image {
+    width: 100%;
+    height: auto;
+  }
+}

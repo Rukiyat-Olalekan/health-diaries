@@ -1,0 +1,29 @@
+
+.popular {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image {
+    margin-right: 1rem;
+}
+.img {
+    border-radius: 50%;
+  }
+.date {
+    margin-bottom: 0.5rem;
+}
+.date p {
+    color: black;
+    font-size: small;
+}
+.margin {
+    margin: 0.5rem;
+    color: purple;
+}
+.detail {
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+}

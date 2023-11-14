@@ -1,0 +1,52 @@
+.introduction {
+  padding: 1rem;
+  width: 40rem;
+  position: absolute;
+  z-index: 5;
+  left: 26%;
+  top: 50%;
+  background-color: white;
+  box-shadow: 5px 5px 20px 0 black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.introduction h4 {
+  line-height: 1.5;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: purple;
+}
+.button {
+  width: 10%;
+  margin: 2rem auto;
+}
+.button button {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  border: none;
+  background-color: purple;
+  color: white;
+  cursor: pointer;
+  border-radius: 30px;
+  text-transform: uppercase;
+}
+@media (max-width: 420px) {
+  .blog {
+    width: 80%;
+    margin: 5rem auto;
+  }
+  .blog img {
+    width: 350px;
+    height: auto;
+  }
+  .introduction {
+    position: relative;
+    width: 100%;
+    left: 0;
+    margin-top: 2rem;
+  }
+  .button {
+    width: 50%;
+    margin: 2rem auto;
+  }
+}

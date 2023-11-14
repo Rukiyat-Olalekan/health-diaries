@@ -1,0 +1,55 @@
+.header {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  height: 60px;
+  width: 100%;
+  color: white;
+  z-index: 20;
+}
+.mobile {
+  display: none;
+}
+.logo {
+  margin: 2rem;
+}
+.nav {
+  margin: 2rem;
+}
+.lists {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+@media (max-width: 420px) {
+  .mobile {
+    display: block;
+  }
+  .lists {
+    display: none;
+    height: 50vh;
+    width: 15rem;
+    background: white;
+    box-shadow: 2px 2px 8px 2px black;
+    color: purple;
+    line-height: 4;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    z-index: 2;
+    padding: 1rem;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  .lists li:hover, .lists li:focus {
+    font-size: 18px;
+    text-decoration: underline;
+  }
+  .lists.open {
+    display: block;
+  }
+}

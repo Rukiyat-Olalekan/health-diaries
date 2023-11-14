@@ -1,0 +1,14 @@
+.about-button {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.2rem;
+    padding: 1rem 0.5rem;
+}
+
+.button {
+    font-size: 1rem;
+    padding: 0 0.5rem;
+    border: 1px solid #7e7e7e;;
+    background-color: white;
+    cursor: pointer;
+}

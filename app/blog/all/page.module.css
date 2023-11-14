@@ -1,0 +1,33 @@
+.detail p {
+  color: purple;
+  text-transform: capitalize;
+}
+.detail p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.blog-posts {
+  width: 70%;
+  margin: auto;
+}
+.views {
+  width: 80rem;
+  margin: 5rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+@media (max-width: 420px) {
+  .view {
+    margin-bottom: 1rem;
+  }
+  .view img {
+    width: 350px;
+    height: auto;
+  }
+  .views {
+    width: 85%;
+    margin: 5rem auto;
+    display: block;
+  }
+}

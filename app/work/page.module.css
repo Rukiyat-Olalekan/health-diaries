@@ -1,0 +1,79 @@
+.images {
+  width: 92%;
+  margin: 5rem 2rem auto;
+  display: flex;
+}
+.first {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  row-gap: 10px;
+  column-gap: 15px;
+  align-items: center;
+  margin: 0.5rem;
+}
+.first > div {
+  width: 100%;
+  height: 100%;
+}
+
+.first > div:first-child {
+  grid-row: span 2;
+}
+.welcome {
+  padding: 1rem 0;
+  margin: 3rem 0;
+  background-color: purple;
+}
+.welcome h3 {
+  text-align: center;
+  color: white;
+  margin: 0.5rem 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.welcome p {
+  width: 60%;
+  margin: auto;
+  color: white;
+}
+.testimony {
+  display: flex;
+  width: 60%;
+  gap: 2rem;
+  margin: 1rem 1rem;
+}
+.testimony p {
+  color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+@media (max-width: 420px) {
+  .work {
+    width: 100%;
+    margin: auto;
+  }
+  .images {
+    display: block;
+  }
+  .first {
+    row-gap: 15px;
+    column-gap: 2px;
+  }
+  .welcome p {
+    padding: 0 0.8rem;
+    width: 100%;
+    padding: 0.5rem;
+  }
+  .testimony {
+    width: 90%;
+    display: block;
+  }
+  .testimony.image {
+    width: 350px;
+    height: auto;
+    margin: auto;
+  }
+  .testimony p {
+    text-align: center;
+  }
+ 
+}

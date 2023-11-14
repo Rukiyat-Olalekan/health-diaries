@@ -1,0 +1,62 @@
+.story {
+  width: 60rem;
+  margin: 10rem auto;
+}
+.story p {
+  line-height: 2;
+}
+.story-header {
+  display: flex;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.story-title {
+  width: 80%;
+  margin: auto;
+}
+.story-title p {
+  line-height: 1.5;
+  color: black;
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+}
+.story-body {
+  width: 80%;
+  margin: 5rem auto;
+}
+.story-body h2 {
+  margin: 2rem 0;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: purple;
+}
+.story-body p {
+  font-size: 16px;
+}
+.story-body .image {
+  margin: 3rem 0;
+}
+@media (max-width: 420px) {
+  .story {
+    width: 90%;
+    margin: 5rem auto;
+  }
+  .story-title p {
+    line-height: 1;
+    font-size: 14px;
+    margin-bottom: 2rem;
+  }
+  .story-header {
+    display: block;
+  }
+  .imag img {
+    width: 350px;
+    height: auto;
+  }
+  .image {
+    width: 100%;
+  }
+}

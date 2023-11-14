@@ -1,0 +1,26 @@
+.blog-post {
+  margin: 10rem 0 0 1rem;
+}
+.detail p {
+  color: purple;
+  text-transform: capitalize;
+}
+.detail p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.blog-posts {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  gap: 1rem;
+}
+@media (max-width: 420px) {
+  .blog-post {
+    margin: 2rem 0;
+  }
+  .blog-posts {
+    display: block;
+    width: 100%;
+  }
+}

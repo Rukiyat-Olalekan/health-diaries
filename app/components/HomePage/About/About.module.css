@@ -1,0 +1,57 @@
+
+.about h4 {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 1rem 1rem 1.5rem;
+}
+.me, .follow, .banner, .twitter, .tag, .form {
+    margin-bottom: 3rem;
+}
+.twitter {
+    text-align: center;
+}
+.twitter p {
+    margin: 0.5rem;
+    font-size: 13px;
+}
+.me h4, .me p, .form p {
+    text-align: center;
+}
+.image {
+    width: 55%;
+    margin: 1rem auto;
+}
+.img {
+    border-radius: 100%;
+    margin: auto;
+}
+.socials {
+    width: 70%;
+    margin: 1rem auto;
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+.bold {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.form form {
+    margin: 1rem 0 0 0;
+}
+.form input {
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+@media (max-width: 414px) {
+    .about {
+     margin: 2rem 0;
+    }
+    .img {
+        width: 100%;
+        height: auto;
+    }
+    }

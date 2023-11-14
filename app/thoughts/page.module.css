@@ -1,0 +1,23 @@
+.home {
+  width: 50rem;
+  margin: 5rem auto;
+}
+.home h1 {
+  text-transform: capitalize;
+}
+
+.home p {
+  line-height: 2;
+  padding: 1rem 0;
+}
+
+@media (max-width: 420px) {
+  .home {
+    width: 90%;
+    margin: 5rem auto;
+  }
+  .image img {
+    width: 350px;
+    height: auto;
+  }
+}
